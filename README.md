@@ -28,8 +28,6 @@ The analysis is organized into the following sections:
 
 ---
 
-![Screenshot of HTML Page](https://github.com/user-attachments/assets/96561583-aaa7-4feb-82ea-0e2d94674e54)
-
 ## Data
 
 <img width="866" alt="Screenshot 2024-12-14 at 7 26 39 PM" src="https://github.com/user-attachments/assets/79c6aec0-23bf-4b96-a818-8334edaab02b" />

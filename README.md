@@ -50,8 +50,7 @@ Results
 - F1-Score: 77%
 - Regression: 0.21
 
+## HTML Page
+<img width="647" alt="Screenshot 2024-12-14 at 6 25 48 PM" src="https://github.com/user-attachments/assets/22097f76-e577-4237-9dcd-ba5897f6a04a" />
 
-## HMTL Page
-
-![image](https://github.com/user-attachments/assets/62aaffa9-88e1-421d-a69d-391af9a3b580)
 

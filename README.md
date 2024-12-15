@@ -4,9 +4,28 @@ The analysis aimed to determine the probablity of a loan defaulting due to facto
 
 ## Overview
 
-The analysis is broken into the following sections:
-<br>``- ### Data
-<br> ``- ### Machine Learning Model
-<br> ``- ### HTML Page
-<br> ``- ### Conclusion<br><br>
-<img width="647" alt="Screenshot 2024-12-14 at 6 25 48 PM" src="https://github.com/user-attachments/assets/96561583-aaa7-4feb-82ea-0e2d94674e54" />
+The analysis is organized into the following sections:
+
+- **Data**
+  - Exploration of the dataset.
+  - Data cleaning and preparation processes.
+  - Feature engineering to enhance predictive performance.
+
+- **Machine Learning Model**
+  - Regression model used to predict loan defaults.
+  - Evaluation metrics such as accuracy and R-squared.
+  - Insights derived from the model.
+
+- **HTML Page**
+  - Interactive interface designed to generate loan default predictions.
+  - User-friendly layout for entering input data and viewing predictions.
+
+- **Conclusion**
+  - Summary of findings and insights.
+  - Identified limitations in the dataset.
+  - Recommendations for improving the analysis in the future.
+
+---
+
+![Screenshot of HTML Page](https://github.com/user-attachments/assets/96561583-aaa7-4feb-82ea-0e2d94674e54)
+

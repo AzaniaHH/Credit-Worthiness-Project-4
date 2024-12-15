@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Default Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #28a745;
+            border-radius: 5px;
+            background-color: #e8f5e9;
+            color: #155724;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Default Prediction</h1>
+        <form id="predictionForm">
+            <div class="form-group">
+                <label for="income">Enter Personal Income:</label>
+                <input type="number" id="income" name="income" required>
+            </div>
+            <div class="form-group">
+                <label for="loan_amount">Enter Loan Amount:</label>
+                <input type="number" id="loan_amount" name="loan_amount" required>
+            </div>
+            <div class="form-group">
+                <label for="home_ownership">Select Home Ownership:</label>
+                <select id="home_ownership" name="home_ownership">
+                    <option value="OWN">OWN</option>
+                    <option value="RENT">RENT</option>
+                    <option value="MORTGAGE">MORTGAGE</option>
+                    <option value="OTHER">OTHER</option>
+                </select>
+            </div>
+            <button type="button" onclick="predictDefault()">Predict Loan Default</button>
+        </form>
+        <div id="result" class="result" style="display: none;"></div>
+    </div>
+
+    <script>
+        function predictDefault() {
+            const income = parseFloat(document.getElementById('income').value);
+            const loanAmount = parseFloat(document.getElementById('loan_amount').value);
+            const homeOwnership = document.getElementById('home_ownership').value;
+
+            // Simple logic for demonstration (replace with actual prediction logic)
+            let prediction = "Non-Default";
+            if (loanAmount / income > 0.4) {
+                prediction = "Default";
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `Prediction: ${prediction}`;
+            resultDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+

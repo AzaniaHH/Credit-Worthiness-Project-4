@@ -43,13 +43,12 @@ The analysis is organized into the following sections:
 
 ## Model
 <br> 
-Results:
+Results
 - Accuracy: 82%
 - Precision: 80%
 - Recall: 75%
 - F1-Score: 77%
-
-Regression .21
+- Regression: 0.21
 
 
 ## HMTL Page

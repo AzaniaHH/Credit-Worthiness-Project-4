@@ -46,7 +46,7 @@ Results
 - Precision: 80%
 - Recall: 75%
 - F1-Score: 77%
-- Regression: 0.21
+- R-Squared: 0.21
 
 ## HTML Page
 <img width="647" alt="Screenshot 2024-12-14 at 6 25 48 PM" src="https://github.com/user-attachments/assets/22097f76-e577-4237-9dcd-ba5897f6a04a" />

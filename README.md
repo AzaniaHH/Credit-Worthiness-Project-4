@@ -29,3 +29,20 @@ The analysis is organized into the following sections:
 
 ![Screenshot of HTML Page](https://github.com/user-attachments/assets/96561583-aaa7-4feb-82ea-0e2d94674e54)
 
+## Data
+
+## Model
+<br> 
+Results:
+- Accuracy: 82%
+- Precision: 80%
+- Recall: 75%
+- F1-Score: 77%
+
+Regression .21
+
+
+## HMTL Page
+
+![image](https://github.com/user-attachments/assets/62aaffa9-88e1-421d-a69d-391af9a3b580)
+

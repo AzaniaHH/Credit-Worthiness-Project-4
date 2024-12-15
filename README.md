@@ -5,8 +5,8 @@ The analysis aimed to determine the probablity of a loan defaulting due to facto
 ## Overview
 
 The analysis is broken into the following sections:
-``- ### Data
-``- ### Machine Learning Model
-``- ### HTML Page
-``- ### Conclusion
+<br>``- ### Data
+<br> ``- ### Machine Learning Model
+<br> ``- ### HTML Page
+<br> ``- ### Conclusion<br><br>
 <img width="647" alt="Screenshot 2024-12-14 at 6 25 48 PM" src="https://github.com/user-attachments/assets/96561583-aaa7-4feb-82ea-0e2d94674e54" />

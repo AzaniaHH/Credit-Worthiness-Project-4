@@ -1,25 +1,22 @@
 # Credit Worthiness 
 
-The analysis aimed to determine the probablity of a loan defaulting due to factors collected in the data. The team secured data from Kaggle, cleaned the dataset, built a regression model and created an interactive (HTML) user interface (UI) to get predictions.  The HTML page allowed users to see the predictions of the model. The evaluation had limitations due to limitations within the data. This report outlines the limitations of the data and an overview of the analysis.
+The analysis aimed to determine the probablity of a loan defaulting due to factors collected in the data. The team secured data from Kaggle, cleaned the dataset, built a regression model and created an interactive (HTML) user interface (UI) to get predictions.  The HTML page allowed users to see the predictions of the model. The evaluation had limitations due to limitations within the data. This report outlines the limitations of the data and an overview of the analysis. A
 
 ## Overview
 
-The analysis is organized into the following sections:
+The analysis is organized into the following sections located in the Credit Worthiness folder:
 
-- **Documents**
-  - PPT
-  - Processed and cleaned data.
-
-- **Data**
+- ****Data (Credit Worthinees Clean File.ipynb)** **
   - Reviewed the dataset.
   - Processed and cleaned data.
 
-- **Machine Learning Model**
+
+- **Machine Learning Model (Analyze CSV.ipynb)**
   - Regression model used to predict loan defaults.
   - Evaluation metrics such as accuracy and R-squared.
   - Insights derived from the model.
 
-- **HTML Page**
+- **HTML Page (HTML_Code.html)**
 
   - Interactive UI to generate loan default predictions
 
@@ -57,8 +54,9 @@ In addition to having the lowest income, renters had the highest number of loan 
 
 ## Model
 <br> 
+The data had limitations as indicated by the 0.21 R squared. Additional data points such as debt-to-income ratio is needed to better predict loan defaults. The report below indicates that the model does a good job of predicting non-default accounts, however it performs poorly on default accounts.
 
-Results
+Results:
 - Accuracy: 82%
 - Precision: 80%
 - Recall: 75%

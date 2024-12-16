@@ -28,7 +28,7 @@ The analysis is organized into the following sections:
 
 ## Data
 
-After cleaning the data the team reviewed the relationship between certain data factors and the loan status. The review is documented below. 
+After cleaning the data, the team reviewed the relationship between certain data factors and the loan status. The review is documented below. 
 
 
 <img width="866" alt="Screenshot 2024-12-14 at 7 26 39 PM" src="https://github.com/user-attachments/assets/79c6aec0-23bf-4b96-a818-8334edaab02b" />

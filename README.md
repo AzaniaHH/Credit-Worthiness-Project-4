@@ -34,13 +34,24 @@ The analysis is organized into the following sections:
 
 After cleaning the data, the team reviewed the relationship between certain data factors and the loan status. The review is documented below. 
 
-
+<br>
+After cleaning the data, the team reviewed the relationship between certain data factors and the loan status. The review is documented below.
+<br>
 <img width="866" alt="Screenshot 2024-12-14 at 7 26 39 PM" src="https://github.com/user-attachments/assets/79c6aec0-23bf-4b96-a818-8334edaab02b" />
 
+<br>
+First the team reviewed the average personal income by home ownership type. People with a mortgage held the highest income, whereas those who rent had the lowest average.
+<br>
 <img width="868" alt="Screenshot 2024-12-14 at 7 27 17 PM" src="https://github.com/user-attachments/assets/a939ad31-510b-49f4-a60b-42ab1c0d68b6" />
 
+<br>
+Medical loans had the highest number of defaults followed by debt consolidation loans.  
+<br>
 <img width="582" alt="Screenshot 2024-12-14 at 7 27 33 PM" src="https://github.com/user-attachments/assets/0967a9bf-e032-4f01-a369-98ad1efc664e" />
 
+<br>
+In addition to having the lowest income, renters had the highest number of loan defaults. 
+<br>
 <img width="586" alt="Screenshot 2024-12-14 at 7 27 50 PM" src="https://github.com/user-attachments/assets/f9469afe-66dc-4cfd-b689-2b8635000ef4" />
 
 

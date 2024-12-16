@@ -7,9 +7,8 @@ The analysis aimed to determine the probablity of a loan defaulting due to facto
 The analysis is organized into the following sections:
 
 - **Data**
-  - Exploration of the dataset.
-  - Data cleaning and preparation processes.
-  - Feature engineering to enhance predictive performance.
+  - Reviewed the dataset.
+  - Processed and cleaned data.
 
 - **Machine Learning Model**
   - Regression model used to predict loan defaults.
@@ -18,8 +17,7 @@ The analysis is organized into the following sections:
 
 - **HTML Page**
 
-  - Interactive interface designed to generate loan default predictions.
-  - User-friendly layout for entering input data and viewing predictions.
+  - Interactive UI to generate loan default predictions
 
 - **Conclusion**
   - Summary of findings and insights.
@@ -29,6 +27,9 @@ The analysis is organized into the following sections:
 ---
 
 ## Data
+
+After cleaning the data the team reviewed the relationship between certain data factors and the loan status. The review is documented below. 
+
 
 <img width="866" alt="Screenshot 2024-12-14 at 7 26 39 PM" src="https://github.com/user-attachments/assets/79c6aec0-23bf-4b96-a818-8334edaab02b" />
 
@@ -41,6 +42,7 @@ The analysis is organized into the following sections:
 
 ## Model
 <br> 
+
 Results
 - Accuracy: 82%
 - Precision: 80%
@@ -49,6 +51,11 @@ Results
 - R-Squared: 0.21
 
 ## HTML Page
+
+
 <img width="647" alt="Screenshot 2024-12-14 at 6 25 48 PM" src="https://github.com/user-attachments/assets/22097f76-e577-4237-9dcd-ba5897f6a04a" />
+
+## Conclusion
+
 
 

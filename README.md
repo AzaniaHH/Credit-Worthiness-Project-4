@@ -6,6 +6,10 @@ The analysis aimed to determine the probablity of a loan defaulting due to facto
 
 The analysis is organized into the following sections:
 
+- **Documents**
+  - PPT
+  - Processed and cleaned data.
+
 - **Data**
   - Reviewed the dataset.
   - Processed and cleaned data.
